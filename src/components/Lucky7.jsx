@@ -1,5 +1,7 @@
+import { dice6, getRolls } from "../utils/utils";
 import "./Lucky7.css";
 const Lucky7 = ()=>{
+    console.log(getRolls(7));
     return (
         <main className="Lucky7">
         <h1>Lucky7 </h1>
